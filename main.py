@@ -1,5 +1,5 @@
-def main():
-    print("pls give 5 for exam")
+def main(name):
+    print(f"Hello, {name}!")
 
 if __name__ == "__main__":
-    main()
+    main("Student")
